@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
+import {
+  faMagnifyingGlass,
+  faSolid,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Navbar = () => {
   return (
@@ -8,15 +13,16 @@ const Navbar = () => {
       <div className="navContainer">
         <Link to={"/"}>
           <span className="logo">Etkinliğini Bul</span>
+         
+          <input type="search" placeholder="Ara..." className="sButton" />
+
         </Link>
       </div>
       <div className="navItems">
-      <div className="item">
-        <Link to={"/"}>Tiyatro</Link>
-      </div>
-      <div className="item">
-      <Link to={"/"}>Konser</Link>
-      </div>
+        <ul>
+          <li><Link to={"/"}>Konser</Link></li>
+          <li><Link to={"/"}>Tiyatro</Link></li>
+        </ul>
       </div>
     </div>
   );
