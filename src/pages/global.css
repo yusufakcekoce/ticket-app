@@ -1,0 +1,92 @@
+.wrapContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 300px;
+  flex-direction: row;
+}
+
+.searchAll {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 300px;
+  flex: 2;
+  flex-direction: row;
+  margin: 2%;
+}
+
+.searchItem {
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+
+  gap: 20px;
+
+  margin: 10px;
+  margin-top: 20px;
+
+  width: max-content;
+  height: max-content;
+}
+
+.searchItem img {
+  object-fit:contain;
+}
+
+.sImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.sDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+
+.sTitle {
+  font-size: 20px;
+  color: #000;
+}
+
+.sDistance {
+  font-size: 15px;
+}
+
+.sPrice {
+  font-size: 15px;
+  background-color: #9a5ae4;
+  color: white;
+  width: max-content;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.sTheme {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.sDate {
+  font-size: 12px;
+}
+
+.sDetails {
+  background-color: #9a5ae4;
+  color: white;
+  font-weight: bold;
+  padding: 10px 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.sDetails:hover {
+  transition: 0.7s;
+  animation: ease-in;
+  background-color: #440888;
+}

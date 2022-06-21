@@ -1,11 +1,13 @@
 .listProducts {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   flex-basis: 300px;
   flex-wrap: wrap;
   margin: 40px;
   padding: 20px;
+  position: relative;
+  flex: 1;
 }
 
 .listContainer {
@@ -55,9 +57,9 @@ p {
 }
 
 .listSubmit input:hover {
-    transition: 0.7s;
-    animation: ease-in;
-    background-color: #440888;
+  transition: 0.7s;
+  animation: ease-in;
+  background-color: #440888;
 }
 
 .maxPrice {
@@ -67,17 +69,6 @@ p {
 .fade {
   font-weight: normal;
 }
-
-/* input {
-    width: 100%;
-    padding: 10px;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    border-bottom: 1px solid #9a5ae4;
-    color: #9a5ae4;
-   
-} */
 
 input,
 select {

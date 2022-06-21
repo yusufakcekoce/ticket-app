@@ -1,0 +1,107 @@
+{
+  "theatres": [
+    {
+      "id": 1,
+      "name": "Bremen Mizikacilari",
+      "location": "Izmir",
+      "activity": "Tiyatro",
+      "info": " Bremen sehrine varmak icin ciktiklari yolda cesitli sikintilarla karsi karsiya gelen dort kafadar, birlik olundugunda her seyin ustesinden nasil da kolay gelindigini ogreneceklerdir. Grimm Kardesler’in dunyaca unlu masali simdi Merlin Cocuk Tiyatrosu farkiyla tiyatro sahnesine tasiniyor. Bu masalda dostluk, birlik olmanin gucu var.",
+      "ticketprice": 175,
+      "date": "28.06.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/bremen-mizikacilari-2022520102625.jpg"
+    },
+    {
+      "id": 2,
+      "name": "1984-Buyuk Gozalti",
+      "location": "Istanbul",
+      "activity": "Tiyatro",
+      "info": "Bir yeralti orgutu olan muhalif ozellikteki kardeslik ve bu orgutun lideri Goldstein, bu toplumun dusmani olarak gorulur. Romanin bas karakteri Winston'in cesitli olaylara dahil olmasiyla roman, okuyucularin akillarinda birtakim soru isareti birakacaktir.",
+      "ticketprice": 200,
+      "date": "23.07.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/1984-buyuk-gozalti-20211227144918.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Deliler Kabaresi",
+      "location": "Ankara",
+      "activity": "Tiyatro",
+      "info": "Turgut Ozakman’in 1987 yilinda kaleme aldigi, Metin Akpinar, Zeki Alasya ve Nevra Serezli’nin basrollerini paylastigi, Devekusu Kabare’nin muhtesem oyunu DELILER Ankara Komedi Tiyatrosu’nun guncel yorumu ile karsinizda.",
+      "ticketprice": 150,
+      "date": "12.09.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/deliler-kabaresi-2022430174837.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Plastik Asklar",
+      "location": "Mardin",
+      "activity": "Tiyatro",
+      "info": " Bir tarafta egitimli, kulturlu, hayatla eglenebilen, avam ama bir o kadarda alaturka bir kadin, diger tarafta cekingen, kendini savunmaktan korkan, geleneklerden bihaber saf bir kadin… Mayis ayi, Hidirellez gunu, doga uyanmaya bahari getirmeye hazirdir. Farkli gecmislerden, farkli seruvenlerden gelen bu iki kadin kendi baharlarini, karsilastiklari bu gecede acaba neye evirecekler.",
+      "ticketprice": 100,
+      "date": "25.06.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/plastik-asklar-2021106112645.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Korkuyu Beklerken",
+      "location": "Mersin",
+      "activity": "Tiyatro",
+      "info": "Butun huylari taklit esasina dayandigi icin, baska hayvanlarin yemek yediklerini gormezlerse, aciktiklarini anlamazlar. İcguduleri tam gelismemistir. Kendilerini korumayi bilmezler. Fakat -gene taklitcikleri nedeniyle- baska hayvanlarin dovusmesine ozenerek kavgaya girdikleri olur. Simdiye kadar hicbir tutunamayanin bir kavgada baska bir hayvani yendigi gorulmemistir.",
+      "ticketprice": 300,
+      "date": "05.08.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/korkuyu-beklerken-202212615424.jpg"
+    }
+  ],
+
+  "concerts": [
+    {
+      "id": 1,
+      "name": "maNga",
+      "location": "Antalya",
+      "activity": "Konser",
+      "info": "Events Across Turkey’in bir kult haline gelen uluslararasi odullu projesi  An Epic Symphony, 24 Haziran 2022’de ulkemizin en onemli rock gruplarindan MANGA ‘yi Night Flight Symphony Orchestra esliginde yeniden agirliyor.",
+      "ticketprice": 175,
+      "date": "24.06.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/an-epic-symphony-manga-2022318133642.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Can Bonomo",
+      "location": "Istanbul",
+      "activity": "Konser",
+      "info": "Can Bonomo muzige sekiz yasinda gitar calarak baslamis, ortaokul ve lise boyunca muzik calismalarini devam ettirmistir. İlk albumu Meczup'u 2011'de yayinlayan Can Bonomo, ikinci albumunun hemen oncesinde Eurovision sarki Yarismasi'nda Turkiye'yi Love Me Back adli sarkiyla temsil etti. 2012'de yayinlanan Asktan ve Gariplikten, 2014'te yayinlanan Bulunmam Gerek albumlerinin ardindan Can Bonomo'nun 4. albumu Kâinat Sustu 2017 yili Mart ayinda dinleyicileri ile bulustu.",
+      "ticketprice": 200,
+      "date": "17.07.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/can-bonomo-202261011253.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Yildiz Tilbe",
+      "location": "Aydin",
+      "activity": "Konser",
+      "info": "90'li yillarda  muzik hayatina atilan Yildiz Tilbe, Delikanlim albumuyle muzikseverler tarafindan oldukca sevilmistir ve daha buyuk kitlelere ulasmistir. Tarz olarak pop ile baslamis ve repertuvarini genisleterek arabesk, halk muzigi ve sanat muzigi formlarini da kullanmistir. Besteledigi bir cok sarkiyi hem kendi söylemis hem de cesitli sanatcilara vermistir.",
+      "ticketprice": 150,
+      "date": "01.07.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/yildiz-tilbe-2022621105142.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Yuzyuzeyken Konusuruz",
+      "location": "Eskisehir",
+      "activity": "Konser",
+      "info": "Mayis 2011'de Engin Sevik ve Kaan Bosnak tarafindan kurulmus Turk bagimsiz alternatif rock grubudur. Baslarda Kaan Bosnak'in kendi sarkilarini kaydedip yayinlamasiyla olusan proje, dinleyicilerinden yogun ilgi ve begeni topladi.Bu zamana kadar bircok muzisyenin eslik ettigi grup Can Kalyoncu, Can Tunaboylu ve Baran Ökmen'in de katilimiyla grup son halini almistir.",
+      "ticketprice": 100,
+      "date": "02.07.2022",
+      "imgAddress": "https://api.bubilet.com.tr/files/Etkinlik/yuzyuzeyken-konusuruz-konseri-13140.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sezona Veda Konseri",
+      "location": "Samsun",
+      "activity": "Konser",
+      "info": "Sezona Veda Konseri",
+      "ticketprice": 300,
+      "date": "25.06.2022",
+      "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/sezona-veda-konseri-samsun-devlet-klasik-turk-muzigi-korosu-2022526164324.jpeg"
+    }
+  ]
+}

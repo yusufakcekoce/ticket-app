@@ -6,7 +6,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar.jsx";
 import homeBG from "../../images/homeBgg.jpg";
 import "./home.css";
 
@@ -14,7 +13,6 @@ const Home = () => {
   return (
     <div className="bigContainer">
       <div className="homeContainer">
-        <Navbar />
         <img src={homeBG} alt="" />
         <div className="imgText">
           <h1>EGLENCENIN DIBINE VURMAYA HAZIR MISIN ?</h1>
@@ -31,14 +29,11 @@ const Home = () => {
         <div className="card-container">
           <div className="card-content">
             <div className="card-title">
-              <h3>Lorem Ipsum</h3>
+              <h3>Ilk Sen Ogren</h3>
             </div>
             <div className="card-body">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus maxime perspiciatis nihil fugiat tempora beatae ipsa
-                sunt non consequuntur magnam ab, quibusdam illum, autem
-                incidunt!
+                Merak ettigin tum konser ve tiyatrolardan haberdar olmak icin bildirimleri ac herkesten once ilk senin haberin olsun
               </p>
             </div>
           </div>
@@ -50,14 +45,11 @@ const Home = () => {
         <div className="card-container">
           <div className="card-content">
             <div className="card-title">
-              <h3>Lorem Ipsum</h3>
+              <h3>Uygun Bilet</h3>
             </div>
             <div className="card-body">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus maxime perspiciatis nihil fugiat tempora beatae ipsa
-                sunt non consequuntur magnam ab, quibusdam illum, autem
-                incidunt!
+                Butcene en uygun kampanyali biletler ETKINLIGINIBUL.COM' da. Sayısız konser ve tiyatrolara sadece birkac tik ile istedigin koltuktan biletini kolayca kap.
               </p>
             </div>
           </div>
@@ -69,14 +61,11 @@ const Home = () => {
         <div className="card-container">
           <div className="card-content">
             <div className="card-title">
-              <h3>Lorem Ipsum</h3>
+              <h3>Cekilis</h3>
             </div>
             <div className="card-body">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus maxime perspiciatis nihil fugiat tempora beatae ipsa
-                sunt non consequuntur magnam ab, quibusdam illum, autem
-                incidunt!
+                Her ay düzenli olarak yapılan SEKSENDORT konserine locadan hicbir ucret odemeden izlemek istemez misin ? Tek yapman gereken siteye uye olmak ve sansina guvenmek
               </p>
             </div>
           </div>
@@ -85,15 +74,17 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
       <div class="section-title-border"></div>
 
       <div className="expected">
-        <h2>Suan Merakla Beklenen Etkinlikler  <FontAwesomeIcon icon={faAnglesDown} className="iconDown"/></h2>
+        <h2>
+          Suan Merakla Beklenen Etkinlikler{" "}
+          <FontAwesomeIcon icon={faAnglesDown} className="iconDown" />
+        </h2>
       </div>
     </div>
   );
 };
-
 
 export default Home;

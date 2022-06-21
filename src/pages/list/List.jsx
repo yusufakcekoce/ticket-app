@@ -26,15 +26,19 @@ const List = () => {
             </div>
             <div className="listBody">
               <p className="other">Diğer</p>
-              <h5 className="maxPrice">En fazla <em className="fade"> (Bilet Ücreti)</em></h5>
+              <h5 className="maxPrice">
+                En fazla <em className="fade"> (Bilet Ücreti)</em>
+              </h5>
               <input type="number" name="" id="" />
             </div>
             <div className="listBody">
-              <h5 className="minPrice">En az <em className="fade"> (Bilet Ücreti)</em></h5>
+              <h5 className="minPrice">
+                En az <em className="fade"> (Bilet Ücreti)</em>
+              </h5>
               <input type="number" name="" id="" />
             </div>
             <div className="listSubmit">
-                <input type="submit" value="Ara" />
+              <input type="submit" value="Ara" />
             </div>
           </div>
         </div>

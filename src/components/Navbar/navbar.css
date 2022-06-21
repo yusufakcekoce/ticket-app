@@ -1,16 +1,17 @@
 .navbar {
   height: 50px;
-  background-color: transparent;
+  background-color: #9a5ae4;
   display: flex;
   align-items: center;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
   text-align: center;
+  font-family: chosence light;
 }
 
 .navbar a {
@@ -34,7 +35,6 @@
   display: flex;
   padding: 5 10 px;
   justify-content: space-around;
-  margin-left: 200px;
 }
 .navItems ul li {
   list-style: none;
@@ -47,38 +47,6 @@
   text-decoration: none;
   float: right;
 }
-
-.search-box {
-  position: absolute;
-  top: 50%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  background: #2c3441;
-  height: 40px;
-  border-radius: 40px;
-  padding: 10px;
-}
-
-.search-box:hover > input {
-  width: 150px;
-  padding: 0 10px;
-}
-
-.search-box:hover > .iconSs {
-  background: #536179;
-}
-
-/* input {
-  width: 0;
-  border: none;
-  outline: none;
-  padding: 0;
-  background: none;
-  font-size: 1.1rem;
-  transition: 0.5s ease;
-  line-height: 20px;
-  color: #fff;
-} */
 
 .navContainer .search-box .iconSs {
   float: left;
@@ -95,4 +63,9 @@
   text-decoration: none;
   margin-top: -10px;
   margin-right: -10px;
+}
+
+.navbar input {
+  width: 200px;
+  margin-left: 30px;
 }
