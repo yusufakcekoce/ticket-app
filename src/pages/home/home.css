@@ -121,3 +121,15 @@ p {
     font-size:smaller;
   }
 }
+
+@media (max-width: 900px) {
+  .imgText p{
+    font-size: larger;
+  }
+}
+
+@media (max-width: 500px) {
+  .imgText p{
+    font-size:smaller;
+  }
+}
