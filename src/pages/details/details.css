@@ -17,12 +17,17 @@
 }
 
 .dDesc {
-  margin-top: 100px;
+  margin-top: 200px;
   font-family: caviar dreams;
   font-weight: bold;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 500px;
+}
+
+.dDesc p {
+  margin: 10px;
 }
 
 .banner .rules {

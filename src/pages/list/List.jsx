@@ -17,10 +17,6 @@ const List = () => {
               <input type="text" />
             </div>
             <div className="listBody">
-              <p>Tür</p>
-              <input type="text" />
-            </div>
-            <div className="listBody">
               <p>Tarih</p>
               <input type="date" name="" id="" />
             </div>

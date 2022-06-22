@@ -1,47 +1,44 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../../pages/global.css";
-import concertBG from "../../images/concert.jpg";
 import List from "../list/List";
 
-const Concert = () => {
+const Concert = ({concertid, setConcertid}) => {
   const [concerts, setConcerts] = useState([]);
-  const [loading, setLoading] = useState(true);
 
   const getConcerts = async () => {
-    setLoading(true)
-    const response = await fetch("http://localhost:3002/concerts"
-    );
+    const response = await fetch("http://localhost:3002/concerts");
     const data = await response.json();
-    setConcerts(data)
-    setLoading(false)
-  }
+    setConcerts(data);
+  };
 
   useEffect(() => {
-    getConcerts()
-  }, [])
+    getConcerts();
+  }, []);
 
   return (
     <div className="wrapContainer">
       <List />
 
       <div className="searchAll">
-        {
-          concerts.map(concert => (
-            <div className="searchItem">
-          <img src={concert.imgAddress} alt="" className="sImg" />
-          <div className="sDesc">
-            <h1 className="sTitle">{concert.name}</h1>
-            <span className="sDistance">{concert.location}</span>
-            <span className="sPrice">{concert.ticketprice}₺</span>
-            <span className="sTheme">{concert.activity}</span>
-            <span className="sDate">{concert.date}</span>
-            <button className="sDetails">Detay</button>
-          </div> 
-        </div>
-          ))
-        }
+        {concerts.map((concert) => (
+          <div className="searchItem">
+            <img src={concert?.stats[0]?.imgAddress} alt="" className="sImg" />
+            <div className="sDesc">
+              <h1 className="sTitle">{concert.name}</h1>
+              <span className="sDistance">{concert?.stats[0]?.location}</span>
+              <span className="sPrice">{concert?.stats[0]?.ticketPrice}₺</span>
+              <span className="sTheme">{concert?.stats[0]?.activity}</span>
+              
+              <span className="sDate">{concert?.stats[0]?.date}</span>
+              <Link to={`${concert.id}`} key={concert.id}>
+                
+                <button onClick={()=>setConcertid(concert.id)} className="sDetails">Detay</button>
+              </Link>
+            </div>
+          </div>
+        ))}
       </div>
-
     </div>
   );
 };

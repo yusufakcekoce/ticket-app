@@ -7,6 +7,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import homeBG from "../../images/homeBgg.jpg";
+import ReactSimplyCarouselExample from "../../components/slider/slider";
 import "./home.css";
 
 const Home = () => {
@@ -33,7 +34,8 @@ const Home = () => {
             </div>
             <div className="card-body">
               <p>
-                Merak ettigin tum konser ve tiyatrolardan haberdar olmak icin bildirimleri ac herkesten once ilk senin haberin olsun
+                Merak ettigin tum konser ve tiyatrolardan haberdar olmak icin
+                bildirimleri ac herkesten once ilk senin haberin olsun
               </p>
             </div>
           </div>
@@ -49,7 +51,9 @@ const Home = () => {
             </div>
             <div className="card-body">
               <p>
-                Butcene en uygun kampanyali biletler ETKINLIGINIBUL.COM' da. Sayısız konser ve tiyatrolara sadece birkac tik ile istedigin koltuktan biletini kolayca kap.
+                Butcene en uygun kampanyali biletler ETKINLIGINIBUL.COM' da.
+                Sayısız konser ve tiyatrolara sadece birkac tik ile istedigin
+                koltuktan biletini kolayca kap.
               </p>
             </div>
           </div>
@@ -65,7 +69,9 @@ const Home = () => {
             </div>
             <div className="card-body">
               <p>
-                Her ay düzenli olarak yapılan SEKSENDORT konserine locadan hicbir ucret odemeden izlemek istemez misin ? Tek yapman gereken siteye uye olmak ve sansina guvenmek
+                Her ay düzenli olarak yapılan SEKSENDORT konserine locadan
+                hicbir ucret odemeden izlemek istemez misin ? Tek yapman gereken
+                siteye uye olmak ve sansina guvenmek
               </p>
             </div>
           </div>
@@ -83,6 +89,7 @@ const Home = () => {
           <FontAwesomeIcon icon={faAnglesDown} className="iconDown" />
         </h2>
       </div>
+      <ReactSimplyCarouselExample/>
     </div>
   );
 };

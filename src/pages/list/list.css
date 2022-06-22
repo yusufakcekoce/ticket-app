@@ -79,6 +79,7 @@ select {
   border: 1px solid #9a5ae4;
   border-radius: 4px;
   box-sizing: border-box;
+  outline: none;
 }
 
 .listTitle {
