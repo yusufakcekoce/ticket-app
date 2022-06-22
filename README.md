@@ -1,5 +1,5 @@
 If you want to view live:
-
+https://yusufakcekoce-etstur-hiring.netlify.app
 
 This project is a work done for Etstur Front-end Hiring.
 
