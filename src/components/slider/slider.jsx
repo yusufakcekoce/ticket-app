@@ -15,7 +15,7 @@ function ReactSimplyCarouselExample() {
         forwardBtnProps={{
           style: {
             alignSelf: "center",
-            background: "black",
+            background: "#9a5ae4",
             border: "none",
             borderRadius: "50%",
             color: "white",
@@ -31,7 +31,7 @@ function ReactSimplyCarouselExample() {
         backwardBtnProps={{
           style: {
             alignSelf: "center",
-            background: "black",
+            background: "#9a5ae4",
             border: "none",
             borderRadius: "50%",
             color: "white",

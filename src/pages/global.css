@@ -90,3 +90,10 @@
   animation: ease-in;
   background-color: #440888;
 }
+
+@media (max-width: 1000px) {
+  .wrapContainer, .searchAll {
+    align-items: center;
+    justify-content: center;
+  }
+}

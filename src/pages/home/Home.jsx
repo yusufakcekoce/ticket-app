@@ -86,7 +86,9 @@ const Home = () => {
       <div className="expected">
         <h2>
           Suan Merakla Beklenen Etkinlikler{" "}
+          <div className="downIcon">
           <FontAwesomeIcon icon={faAnglesDown} className="iconDown" />
+          </div>
         </h2>
       </div>
       <ReactSimplyCarouselExample/>

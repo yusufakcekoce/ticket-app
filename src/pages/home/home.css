@@ -18,6 +18,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 300px;
 }
 
 .imgText h1 {
@@ -96,8 +100,24 @@ p {
   margin-bottom: 40px;
 }
 
+.downIcon {
+  text-align: center;
+}
+
 .iconDown {
   font-size: 30px;
   color: #9a5ae4;
   margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .imgText h1{
+    font-size: larger;
+  }
+}
+
+@media (max-width: 500px) {
+  .imgText h1{
+    font-size:smaller;
+  }
 }

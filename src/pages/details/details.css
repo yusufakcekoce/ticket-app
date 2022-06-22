@@ -81,3 +81,12 @@
   animation: ease-in;
   background-color: #440888;
 }
+
+@media (max-width: 900px) {
+  .dDetails,  .dImg{
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+}

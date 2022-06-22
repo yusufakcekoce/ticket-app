@@ -1,12 +1,12 @@
 import { useState } from "react";
 import ReactSimplyCarousel from "react-simply-carousel";
-
+import "../../components/slider/slider.css"
 
 function ConcertCarousel() {
   const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
   return (
-    <div className="sliderWrap">
+    <div className="sliderConcert">
       <ReactSimplyCarousel
         activeSlideIndex={activeSlideIndex}
         onRequestChange={setActiveSlideIndex}
@@ -56,52 +56,52 @@ function ConcertCarousel() {
       >
         <div
           className="slide"
-          style={{ width: 200, height: 200, background: "#ffff" }}
+          style={{ width: 300, height: 300, background: "#ffff" }}
         >
           <img
             src="https://api.bubilet.com.tr/files/Etkinlik/yuzyuzeyken-konusuruz-konseri-13140.jpg"
             alt=""
-            height="200px"
+            height="300px"
           />
         </div>
         <div
           className="slide"
-          style={{ width: 200, height: 200, background: "#ffff" }}
+          style={{ width: 300, height: 300, background: "#ffff" }}
         >
           <img
             src="https://kdaidggt0f3v.merlincdn.net/Uploads/Films/yildiz-tilbe-2022621105142.jpg"
             alt=""
-            height="200px"
+            height="300px"
           />
         </div>
         <div
           className="slide"
-          style={{ width: 200, height: 200, background: "#ffff" }}
+          style={{ width: 300, height: 300, background: "#ffff" }}
         >
           <img
             src="https://kdaidggt0f3v.merlincdn.net/Uploads/Films/korkuyu-beklerken-202212615424.jpg"
             alt=""
-            height="200px"
+            height="300px"
           />
         </div>
         <div
           className="slide"
-          style={{ width: 200, height: 200, background: "#ffff" }}
+          style={{ width: 300, height: 300, background: "#ffff" }}
         >
           <img
             src="https://kdaidggt0f3v.merlincdn.net/Uploads/Films/istanbul-festivali-9-gun-haluk-levent-20226295722.jpg"
             alt=""
-            height="200px"
+            height="300px"
           />
         </div>
         <div
           className="slide"
-          style={{ width: 200, height: 200, background: "#ffff" }}
+          style={{ width: 300, height: 300, background: "#ffff" }}
         >
           <img
             src="https://kdaidggt0f3v.merlincdn.net/Uploads/Films/plastik-asklar-2021106112645.jpg"
             alt=""
-            height="200px"
+            height="300px"
           />
         </div>
       </ReactSimplyCarousel>

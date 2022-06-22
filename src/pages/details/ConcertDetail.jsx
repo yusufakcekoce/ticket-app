@@ -47,7 +47,7 @@ const ConcertDetail = ({ concertid, setConcertid }) => {
             <div className="dTicketBuy">
               <input type="submit" value="Bilet Al" />
             </div>
-            <ConcertCarousel/>
+            {/* <ConcertCarousel/> */}
           </div>
         </div>
       ))}
