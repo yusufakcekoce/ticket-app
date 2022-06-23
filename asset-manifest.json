@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/etstur-hiring-challenge/static/css/main.59e47565.css",
+    "main.js": "/etstur-hiring-challenge/static/js/main.b311efc3.js",
+    "static/js/787.89ad8dcd.chunk.js": "/etstur-hiring-challenge/static/js/787.89ad8dcd.chunk.js",
+    "static/media/homeBgg.jpg": "/etstur-hiring-challenge/static/media/homeBgg.09317ddf6b8e9e2684df.jpg",
+    "static/media/detailconcert.jpg": "/etstur-hiring-challenge/static/media/detailconcert.3d1de7cc0c60845091fb.jpg",
+    "index.html": "/etstur-hiring-challenge/index.html",
+    "main.59e47565.css.map": "/etstur-hiring-challenge/static/css/main.59e47565.css.map",
+    "main.b311efc3.js.map": "/etstur-hiring-challenge/static/js/main.b311efc3.js.map",
+    "787.89ad8dcd.chunk.js.map": "/etstur-hiring-challenge/static/js/787.89ad8dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59e47565.css",
+    "static/js/main.b311efc3.js"
+  ]
+}
