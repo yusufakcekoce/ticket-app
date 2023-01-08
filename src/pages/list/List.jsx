@@ -1,8 +1,6 @@
 import "./list.css";
 import React from "react";
 
-// Tarih, Tür, Bulunduğu şehir
-
 const List = () => {
   return (
     <div>
@@ -10,7 +8,7 @@ const List = () => {
         <div className="listContainer">
           <div className="listContent">
             <div className="listTitle">
-              <h2>Filtrele (Not Working)</h2>
+              <h2>Filtrele</h2>
             </div>
             <div className="listBody">
               <p>Konum</p>

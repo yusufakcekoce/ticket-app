@@ -143,20 +143,6 @@
           "imgAddress": "https://kdaidggt0f3v.merlincdn.net/Uploads/Films/sezona-veda-konseri-samsun-devlet-klasik-turk-muzigi-korosu-2022526164324.jpeg"
         }
       ]
-    },
-    {
-      "id":11,
-      "name":"Haluk Levent",
-      "stats": [
-        {
-          "location":"Konya",
-          "activity":"Konser",
-          "info":"Çeyrek asırlık sanat yaşamına on beş albüm, binlerce konser, iki kitap, yüzlerce ödül sığdıran Haluk Levent, Istanbul'un festivalinde sahne alıyor.",
-          "ticketPrice":"125",
-          "date":"19.07.2022",
-          "imgAddress":"https://kdaidggt0f3v.merlincdn.net/Uploads/Films/istanbul-festivali-9-gun-haluk-levent-20226295722.jpg"
-        }
-      ]
     }
   ]
 }
