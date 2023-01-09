@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import detailBG from "../../images/detailconcert.jpg";
 import "./details.css";
-import ConcertCarousel from "../concert/concertCarousel";
+import Ticket from "../../components/BuyTicket/Ticket";
 
 const ConcertDetail = ({ concertid, setConcertid }) => {
   const [concert, setConcert] = useState([]);
@@ -12,7 +12,7 @@ const ConcertDetail = ({ concertid, setConcertid }) => {
       let data = await fetch(api).then((res) => res.json());
       setConcert(data);
     })();
-  }, [concertid]);
+  }, [concertid, api]);
   return (
     <div className="detailContainer">
       <div className="dImg">
@@ -51,7 +51,7 @@ const ConcertDetail = ({ concertid, setConcertid }) => {
           </div>
         </div>
       ))}
-      
+      <Ticket />
     </div>
   );
 };

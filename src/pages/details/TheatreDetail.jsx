@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Ticket from "../../components/BuyTicket/Ticket";
 import detailBG from "../../images/detailconcert.jpg";
 import "./details.css";
 
@@ -11,7 +12,7 @@ const Details = ({ theatreid, setTheatreid }) => {
       let data = await fetch(api).then((res) => res.json());
       setTheatre(data);
     })();
-  }, [theatreid]);
+  }, [theatreid, api]);
   return (
     <div className="detailContainer">
       <div className="dImg">
@@ -49,6 +50,8 @@ const Details = ({ theatreid, setTheatreid }) => {
           </div>
         </div>
       ))}
+
+      <Ticket />
     </div>
   );
 };
