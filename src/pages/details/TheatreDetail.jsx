@@ -5,6 +5,11 @@ import "./details.css";
 
 const Details = ({ theatreid, setTheatreid }) => {
   const [theatre, setTheatre] = useState([]);
+  const [showMyTicket, setShowMyTicket] = useState(false);
+
+  const handleOnClose = () => {
+    setShowMyTicket(false);
+  };
 
   let api = `http://localhost:3002/theatres/${theatreid}`;
   useEffect(() => {
@@ -45,13 +50,15 @@ const Details = ({ theatreid, setTheatreid }) => {
             <p>Tarih: {stat.date} 19.07</p>
             <p className="info">Info: {stat.info}</p>
             <div className="dTicketBuy">
-              <input type="submit" value="Bilet Al" />
+              <button onClick={() => setShowMyTicket(true)} type="submit">
+                Bilet Al
+              </button>
             </div>
           </div>
         </div>
       ))}
 
-      <Ticket />
+      <Ticket onClose={handleOnClose} visible={showMyTicket} />
     </div>
   );
 };

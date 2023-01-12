@@ -64,7 +64,7 @@
   margin: 150px;
 }
 
-.dTicketBuy input {
+.dTicketBuy button {
   background-color: #9a5ae4;
   color: white;
   padding: 14px 20px;
@@ -76,7 +76,7 @@
   justify-content: center;
 }
 
-.dTicketBuy input:hover {
+.dTicketBuy button:hover {
   transition: 0.7s;
   animation: ease-in;
   background-color: #440888;

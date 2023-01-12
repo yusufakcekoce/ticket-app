@@ -5,6 +5,11 @@ import Ticket from "../../components/BuyTicket/Ticket";
 
 const ConcertDetail = ({ concertid, setConcertid }) => {
   const [concert, setConcert] = useState([]);
+  const [showMyTicket, setShowMyTicket] = useState(false);
+
+  const handleOnClose = () => {
+    setShowMyTicket(false);
+  };
 
   let api = `http://localhost:3002/concerts/${concertid}`;
   useEffect(() => {
@@ -45,13 +50,15 @@ const ConcertDetail = ({ concertid, setConcertid }) => {
             <p>Tarih: {stat.date} 19.07</p>
             <p className="info">Info: {stat.info}</p>
             <div className="dTicketBuy">
-              <input type="submit" value="Bilet Al" />
+              <button onClick={() => setShowMyTicket(true)} type="submit">
+                Bilet Al
+              </button>
             </div>
             {/* <ConcertCarousel/> */}
           </div>
         </div>
       ))}
-      <Ticket />
+      <Ticket onClose={handleOnClose} visible={showMyTicket} />
     </div>
   );
 };

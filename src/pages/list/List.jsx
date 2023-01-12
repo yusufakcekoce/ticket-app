@@ -1,7 +1,7 @@
 import "./list.css";
 import React from "react";
 
-const List = () => {
+const List = ({search, handleChange}) => {
   return (
     <div>
       <div className="listProducts">
@@ -12,24 +12,24 @@ const List = () => {
             </div>
             <div className="listBody">
               <p>Konum</p>
-              <input type="text" />
+              <input type="text" name="location" value={search.location} onChange={handleChange} />
             </div>
             <div className="listBody">
               <p>Tarih</p>
-              <input type="date" name="" id="" />
+              <input type="date" name="date" value={search.date} onChange={handleChange} />
             </div>
             <div className="listBody">
               <p className="other">Diğer</p>
               <h5 className="maxPrice">
                 En fazla <em className="fade"> (Bilet Ücreti)</em>
               </h5>
-              <input type="number" name="" id="" />
+              <input type="number" name="maxPrice" value={search.maxPrice} onChange={handleChange} />
             </div>
             <div className="listBody">
               <h5 className="minPrice">
                 En az <em className="fade"> (Bilet Ücreti)</em>
               </h5>
-              <input type="number" name="" id="" />
+              <input type="number" name="minPrice" value={search.minPrice} onChange={handleChange} />
             </div>
             <div className="listSubmit">
               <input type="submit" value="Ara" />
